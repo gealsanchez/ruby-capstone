@@ -2,7 +2,7 @@ require_relative '../genre'
 require_relative '../music_album'
 
 module AddMusicAlbum
-  def add_a_amusic
+  def add_a_music
     print 'Genre : '
     name = gets.chomp
 

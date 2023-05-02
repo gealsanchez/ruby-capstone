@@ -1,7 +1,7 @@
 # modules
 require_relative './modules/menu'
 require_relative './modules/list_all_music_albums'
-require_relative './modules/list_all_genres'
+require_relative './modules/list_all_geners'
 require_relative './modules/add_music_album'
 
 ACTIONS = {
@@ -12,7 +12,7 @@ ACTIONS = {
 
 class App
   def initialize
-    @music_albums = load_music_albums_data
+    
   end
 
   include Menu

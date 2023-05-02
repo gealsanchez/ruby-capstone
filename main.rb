@@ -13,6 +13,7 @@ class Main
     puts '6 - Add a book'
     puts '7 - Exit'
   end
+
   def run
     puts ''
     menu
@@ -21,7 +22,7 @@ class Main
     puts "You choose option #{selected}"
     case selected
     when 1..7
-      puts "You option is correct and will be implemented later"
+      puts 'You option is correct and will be implemented later'
     else
       puts 'Please choose a valid option:'
     end

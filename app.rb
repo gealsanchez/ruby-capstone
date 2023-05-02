@@ -7,14 +7,10 @@ require_relative './modules/add_music_album'
 ACTIONS = {
   1 => :list_all_musics,
   2 => :list_all_genres,
-  3 => :add_a_music,
+  3 => :add_a_music
 }.freeze
 
 class App
-  def initialize
-    
-  end
-
   include Menu
   include AddMusicAlbum
   include ListAllGenres

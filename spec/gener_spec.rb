@@ -18,7 +18,7 @@ describe Genre do
       expect(item1.genre).to eq(genre)
     end
 
-     it 'should not add duplicates to the items collection' do
+    it 'should not add duplicates to the items collection' do
       genre = Genre.new('gifted hands')
       genre.add_item(item1)
       expect(genre.items).to eq([item1])

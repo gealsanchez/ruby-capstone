@@ -11,5 +11,5 @@ def add_label
   item = add_item
   item.add_label(label)
 
-  puts "Label added successfully!"
+  puts 'Label added successfully!'
 end

@@ -1,0 +1,18 @@
+[
+  {
+    "aname": "test",
+    "on_spotify": true,
+    "publish_date": "2000-10-10",
+    "genre": {
+      "name": "test1"
+    }
+  },
+  {
+    "aname": "test2",
+    "on_spotify": false,
+    "publish_date": "2001-04-03",
+    "genre": {
+      "name": "test2"
+    }
+  }
+]

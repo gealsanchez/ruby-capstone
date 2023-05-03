@@ -12,5 +12,4 @@ class Book < Item
   def can_be_archived?
     cover_state == 'bad' ? true : super
   end
-
 end

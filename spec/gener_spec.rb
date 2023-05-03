@@ -11,5 +11,11 @@ describe Genre do
       genre.add_item(item1)
       expect(genre.items).to eq([item1])
     end
+
+    it 'test setting of the item genre to itself' do
+      genre = Genre.new('gifted hands')
+      genre.add_item(item1)
+      expect(item1.genre).to eq(genre)
+    end
   end
 end

@@ -153,6 +153,6 @@ If you like this project and want to support me make cooler projects Give this p
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT) licensed.
+This project is [MIT](https://github.com/gealsanchez/ruby-capstone/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

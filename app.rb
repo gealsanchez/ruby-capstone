@@ -21,8 +21,8 @@ ACTIONS = {
   3 => :add_a_music,
   4 => :list_all_book,
   5 => :list_all_labels,
-  6 => :add_a_book
-  7 => :list_all_authors,
+  6 => :add_a_book,
+  7 => :list_all_authors
 }.freeze
 
 class App

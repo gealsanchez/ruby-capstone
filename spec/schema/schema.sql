@@ -13,6 +13,22 @@ CREATE TABLE item (
   PRIMARY KEY(id)
 );
 
+-- Games Table
+CREATE TABLE games (
+  id INT,
+  multiplayer BOOLEAN,
+  last_played_at DATE,
+  FOREIGN KEY(id) REFERENCES item(id)
+);
+
+-- Authors Table
+CREATE TABLE authors (
+  id  INT GENERATED ALWAYS AS IDENTITY,
+  first_name VARCHAR(255),
+  last_name VARCHAR(255),
+  PRIMARY KEY(id)
+);
+
 -- Genres Table
 CREATE TABLE genre(
   id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,

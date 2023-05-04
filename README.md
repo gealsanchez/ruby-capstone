@@ -53,7 +53,7 @@ In this project, we created a console app that will help you to keep a record of
 
 ## 🚀 Video Link <a name="live-demo"></a>
 
-[Link]()
+[Link](https://drive.google.com/file/d/1VPp7B6jLw9YYDfVczjW5bkHwhp55NqPO/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

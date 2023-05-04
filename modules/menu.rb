@@ -9,7 +9,9 @@ module Menu
     \n 5 - List all labels
     \n 6 - Add a book
     \n 7 - List all authors (e.g. 'Stephen King')
-    \n 8 - Exit
+    \n 8 - List all games
+    \n 9 - Add a game
+    \n 10 - Exit
     "
   end
 end

@@ -14,12 +14,12 @@ module AddGame
     last_played_date = gets.chomp
 
     print 'Enter the first name of the author: '
-    firstname = gets.chomp
+    first_name = gets.chomp
     print 'Enter the last name of the author: '
-    lastname = gets.chomp
+    last_name = gets.chomp
     author = Author.new(first_name, last_name)
     game = Game.new(publish_date, last_played_date, multiplayer)
-    game.author = auhor
+    game.author = author
     @games.push(game)
   end
 

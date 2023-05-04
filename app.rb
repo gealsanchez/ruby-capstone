@@ -17,7 +17,6 @@ require_relative './modules/list_authors'
 require_relative './modules/list_all_games'
 require_relative './modules/add_game'
 
-
 ACTIONS = {
   1 => :list_all_musics,
   2 => :list_all_genres,

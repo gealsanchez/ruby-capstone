@@ -4,7 +4,7 @@ require 'json'
 
 class Game < Item
   attr_reader :id
-  attr_accessor :multiplayer, :last_played_at
+  attr_accessor :multiplayer, :last_played_at, :publish_date
 
   def initialize(publish_date, last_played_at, multiplayer)
     super(publish_date)

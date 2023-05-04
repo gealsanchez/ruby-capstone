@@ -3,6 +3,7 @@ require 'json'
 # classes
 
 require_relative './author'
+require_relative './game'
 
 # modules
 require_relative './modules/menu'
@@ -33,7 +34,7 @@ class App
   def initialize
     @music_albums = load_music_data
     @books = load_books_data
-    @games = load_books_data
+    @games = load_game_data
   end
 
   include Menu
@@ -48,6 +49,7 @@ class App
   include BookData
   include ListAuthors
   include ListAllGames
+  include GameData
   include AddGame
 
   def run

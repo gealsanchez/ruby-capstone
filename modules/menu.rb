@@ -8,7 +8,8 @@ module Menu
     \n 4 - List all books
     \n 5 - List all labels
     \n 6 - Add a book
-    \n 7 - Exit
+    \n 7 - List all authors (e.g. 'Stephen King')
+    \n 8 - Exit
     "
   end
 end

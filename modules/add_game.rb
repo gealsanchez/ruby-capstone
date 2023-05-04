@@ -21,7 +21,6 @@ module AddGame
     game = Game.new(publish_date, last_played_date, multiplayer)
     game.author = author
     @games.push(game)
+    puts 'Game added successfully!'
   end
-
-  puts 'Game added successfully!'
 end

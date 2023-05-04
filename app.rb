@@ -14,6 +14,8 @@ require_relative './modules/add_book'
 require_relative './modules/list_all_books'
 require_relative './modules/list_all_labels'
 require_relative './modules/list_authors'
+require_relative './modules/list_all_games'
+require_relative './modules/add_game'
 
 ACTIONS = {
   1 => :list_all_musics,
@@ -22,13 +24,16 @@ ACTIONS = {
   4 => :list_all_book,
   5 => :list_all_labels,
   6 => :add_a_book,
-  7 => :list_all_authors
+  7 => :list_all_authors,
+  8 => :list_all_games,
+  9 => :add_a_game
 }.freeze
 
 class App
   def initialize
     @music_albums = load_music_data
     @books = load_books_data
+    @games = load_books_data
   end
 
   include Menu
@@ -42,15 +47,17 @@ class App
   include ListAllBooks
   include BookData
   include ListAuthors
+  include ListAllGames
+  include AddGame
 
   def run
     choice = 0
 
-    while choice != 9
+    while choice != 11
       desplay_menu
       choice = gets.chomp.to_i
 
-      if choice == 8
+      if choice == 10
         puts " \n Thanks for using catalog\n"
         preserve_data
         exit
